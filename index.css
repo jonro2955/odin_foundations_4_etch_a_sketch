@@ -20,7 +20,7 @@ body{
 }
 
 #productLabel{
-  margin-top: -130px;
+  margin-top: -30px;
   margin-bottom: 5px;
   display: flex;
   justify-content: center; /* vertical */
@@ -37,7 +37,7 @@ body{
 
 #sliderDiv{
   margin-top: -10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: flex;
   justify-content: center; /* vertical */
   align-items: center; /* horizontal */  
@@ -67,7 +67,7 @@ body{
 }
  
 #buttonRow{
-  position: absolute;
+  margin-top: 20px;
   bottom: 35px;
   height: 95px;
   display: flex;
