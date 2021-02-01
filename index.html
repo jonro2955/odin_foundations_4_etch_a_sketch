@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Etch-A-Sketch</title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div id="tablet">
+
+    <h1 id="productLabel"><p class="outerWords">Magic</p>Etch-A-Sketch<p class="outerWords">Pad</p></h1>
+
+    <div id="sliderDiv">
+      <div id="sliderLabel">LINE THICKNESS:</div>
+      <input id="slider" type="range" min="1" max="95" value="50">  
+    </div>
+
+    <div id="grid"></div> <!-- Cells go in here -->
+
+    <div id="buttonRow"> <!-- Buttons start-->
+     
+      <div id="fillColour" class="colourPicker">
+        FILL COLOUR
+        <input type="color" id="fillColourPicker" name="head" value="#85e39f">
+        <button id="fillColourRandomize" class="radomizeButton">Random Pick</button>
+      </div>
+
+      <button id="reset" class="button">RESET</button>
+
+      <button id="clearButton" class="button">CLEAR</button>
+    
+      <button id="collageBoard" class="button">COLLAGE</button>
+
+      <button id="eraserToggle" class="button">
+        ERASER
+        <div id="eraserState"></div>
+      </button>
+
+      <button id="rainbowToggle" class="button">
+        RAINBOW
+        <div id="rainbowState"></div>
+      </button>
+
+      <div id="lineColour" class="colourPicker">
+        LINE COLOUR
+        <input type="color" id="lineColourPicker" name="head" value="#691cd0">
+        <button id="lineColourRandomize" class="radomizeButton">Random Pick</button>
+      </div>
+
+    </div> <!-- Buttons end -->
+
+  </div>
+
+  <div id="credits">Built by&nbsp;<a href="https://github.com/jonro2955">Jonathan Ro</a>
+    <br>As part of&nbsp;<a href="https://www.theodinproject.com/">The Odin Project</a>&nbsp;curriculum
+  </div>
+
+  <script src="index.js"></script>
+
+</body>
+</html>

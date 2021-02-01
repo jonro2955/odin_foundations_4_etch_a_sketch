@@ -1,0 +1,106 @@
+body{
+  display: flex;
+  justify-content: center; /* vertical */
+  align-items: center; /* horizontal */  
+  flex-direction: column;
+}
+
+#tablet{
+  display: flex;
+  justify-content: center; /* vertical */
+  align-items: center; /* horizontal */  
+  flex-direction: column;
+  border-radius: 7px; 
+  border: solid 3px rgb(233, 99, 99);
+  box-shadow: 0px 0px 10px 10px;
+  margin: 25px 0 25px 0;
+  height: 900px;
+  width: 1080px;
+  background-color: rgb(201, 57, 57);
+}
+
+#productLabel{
+  margin-top: -130px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center; /* vertical */
+  align-items: center; /* horizontal */  
+  flex-direction: row;
+  gap: 10px;
+  font-family: 'Courgette', cursive;
+  color: gold;
+}
+
+.outerWords{
+  font-size: 20px;
+}
+
+#sliderDiv{
+  margin-top: -10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* vertical */
+  align-items: center; /* horizontal */  
+  flex-direction: column;
+}
+
+#sliderLabel{
+  display: flex;
+  justify-content: center; /* vertical */
+  align-items: center; /* horizontal */  
+  flex-direction: row;
+}
+
+#slider{
+  cursor: pointer;
+  width: 160px;
+}
+
+#grid{
+  display: grid;
+  height: 650px;
+  width: 866px;
+  border-radius: 25px;
+  overflow: hidden;
+  border: solid 3px rgb(233, 99, 99);
+ 
+}
+ 
+#buttonRow{
+  position: absolute;
+  bottom: 35px;
+  height: 95px;
+  display: flex;
+  justify-content: center; /* vertical */
+  align-items: center; /* horizontal */  
+  gap: 40px;
+}
+
+.colourPicker{
+  border: 2px solid rgb(73, 73, 73); 
+  display: flex;
+  justify-content: center; /* vertical */
+  align-items: center; /* horizontal */  
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px 10px 10px 10px;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+}
+
+.button{
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
+  outline:none;
+}
+.radomizeButton{
+  border: 2px solid  rgb(73, 73, 73);
+  border-radius: 5px;
+  outline:none;
+}
+#credits{
+  margin: 30px 0 30px 0;
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
