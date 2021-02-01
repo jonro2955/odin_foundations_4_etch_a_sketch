@@ -1,5 +1,5 @@
 # Etch-A-Sketch
-This is the fourth project from The Odin Project's web develpment foundations curriculum. Link to live version:  
+This is the fourth project from The Odin Project's web develpment foundations curriculum. Link to live version: https://jonro2955.github.io/odin-foundations-4-etch_a_sketch/
 
 It is a virtual a Etch-a-sketch drawing toy with some extended functionalities using html, css and javascript. The main objective of this project is to put the document object model and javascript events knowledge to practice.   
 
