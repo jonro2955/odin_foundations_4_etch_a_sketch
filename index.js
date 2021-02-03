@@ -99,6 +99,10 @@ function fillBackOnly(givenColour){
   }
   previousFillColour = currentFillColour; 
   currentFillColour = givenColour; 
+  if(eraserState.textContent==="ON"){
+    setLineColour(currentFillColour);
+    eraserState.textContent="ON";
+  }
 }
 
 function updateGrid(){
