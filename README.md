@@ -1,7 +1,9 @@
 # Etch-A-Sketch
-This is the fourth project from The Odin Project's web develpment foundations curriculum. Link to live version: https://jonro2955.github.io/odin_foundations_4_etch_a_sketch/
+https://jonro2955.github.io/odin_foundations_4_etch_a_sketch/
 
-It is a virtual a Etch-a-sketch drawing toy with some extended functionalities. Languages used are html, css and javascript. The objective is to put the document object model and javascript events knowledge learned upto this point into practice.   
+This is the 4th project from The Odin Project's Foundations curriculum. 
+
+It is a virtual a Etch-a-sketch drawing toy with extended functionalities. Languages used are HTML, CSS and JavaScript. The objective is to practice using the Document Object Model and the JavaScript event handlers learned in the current lessons.   
 
 What I learned:
 - How to create dynamic webpages by creating functions that construct html strings that can then be placed as inner html inside DOM elements to create more elements. In this way, it is possible to create entire websites dynamically using only javascript. 
