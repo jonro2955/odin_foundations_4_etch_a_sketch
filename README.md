@@ -1,14 +1,22 @@
 # Etch-A-Sketch
-https://jonro2955.github.io/odin_foundations_4_etch_a_sketch/
+A web based etch-a-sketch drawing toy built using HTML, CSS and vanilla JS 
 
-This is the 4th project from The Odin Project's Foundations curriculum. 
+<hr/>
 
-It is a virtual a Etch-a-sketch drawing toy with extended functionalities. Languages used are HTML, CSS and JavaScript. The objective is to practice using the Document Object Model and the JavaScript event handlers learned in the current lessons.   
+[Live Demo](https://jonro2955.github.io/odin_foundations_4_etch_a_sketch/)
 
-What I learned:
-- How to create dynamic webpages by creating functions that construct html strings that can then be placed as inner html inside DOM elements to create more elements. In this way, it is possible to create entire websites dynamically using only javascript. 
-- Adding event listeners, and listening for multiple events in one element. 
-- Converting hex colour codes to to rgb to work with colour values.
+### Focus  
+- Creating dynamic webpages with JS functions that construct html strings that are inserted into DOM as inner html elements to create more elements.
+- Using event listeners, and listening for multiple events in one element. 
+- Converting hex colours to rgb.
 - DOM, element and style manipulation using javascript.
 - Using html color input elements.
 - Adding additional functionalities by creating extra variables to store default, current, and previous values, and making correct data transitions among them inside the relevant functions. This is important if you want to have multiple functionalities in your app where turing one thing on requres automatically turning the others off to ensure that there are no unexpected behaviours.
+ 
+### Acknowledgements
+
+[The Odin Project](https://www.theodinproject.com/)
+
+### License
+
+[ISC](https://opensource.org/licenses/ISC)
