@@ -1,11 +1,12 @@
 # Etch-A-Sketch
-A web based etch-a-sketch drawing toy built using HTML, CSS and vanilla JS 
+
+This is a web based etch-a-sketch drawing toy built using HTML, CSS and vanilla JS.
 
 <hr/>
 
 [Live Demo](https://jonro2955.github.io/odin_foundations_4_etch_a_sketch/)
 
-### Focus  
+### Learning Objectives  
 - Creating dynamic webpages with JS functions that construct html strings that are inserted into DOM as inner html elements to create more elements.
 - Using event listeners, and listening for multiple events in one element. 
 - Converting hex colours to rgb.
